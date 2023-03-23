@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import AddNewCard from './Components/AddNewCard';
+import TodoList from './Components/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="nav"><h1 className="h1t">Welcome To Todo App</h1>
+</div>
+     <AddNewCard/>
+     <TodoList/>
     </div>
   );
 }
